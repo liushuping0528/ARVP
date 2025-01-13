@@ -25,6 +25,31 @@ Official implementation of
 [Wei Li](https://scholar.google.com/citations?hl=zh-CN&user=CRioWFgAAAAJ&view_op=list_works&sortby=pubdate)<sup>2</sup>,
 <br/>
 <sup>1</sup>Jiangnan University,
+## Reproduced Results
+
+#### CIFAR-100
+
+<div align="center">
+<img src="./resources/cifar100.png" width="900px">
+</div>
+
+
+
+#### ImageNet-100
+
+<div align="center">
+<img src="./resources/ImageNet100.png" width="900px">
+</div>
+
+
+#### ImageNet-100 (Top-5 Accuracy) 
+
+<div align="center">
+<img src="./resources/imagenet20st5.png" width="500px">
+</div>
+
+
+> More experimental details and results can be found in our [survey](https://arxiv.org/abs/2302.03648).
 ## Getting Started
 
 ### 1. Environment Creation
