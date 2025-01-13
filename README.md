@@ -3,14 +3,14 @@
 
   # ARVP: Adversarial Reprogramming Visual Prompts for Class-Incremental Learning
 
-  <img src="docs/teaser.png">
+  
 
 </div>
 
 
 ## Overview
 
-Class-incremental learning (CIL) with _**E**xemplar **S**uper-**CO**mpression and **R**egeneration based on promp**T**s_ (ESCORT), a diffusion-based approach that boosts CIL performance by storing exemplars with increased quantity and enhanced diversity under limited memory budget. ESCORT works by
+Class-incremental learning (CIL) with _**A**dversarial **R**eprogramming **V**isual **P**rompts_ (ARVP), a diffusion-based approach that boosts CIL performance by storing exemplars with increased quantity and enhanced diversity under limited memory budget. ARPV works by
 
 - extracting visual and textual prompts from selected images and saving prompts instead of images
 - regenerating exemplars from prompts with ControlNet for CIL model training in subsequent phases
@@ -19,18 +19,12 @@ Class-incremental learning (CIL) with _**E**xemplar **S**uper-**CO**mpression an
 
 Official implementation of 
 
-<b>Prompt-Based Exemplar Super-Compression and Regeneration for Class-Incremental Learning</b>
+<b>Adversarial Reprogramming Visual Prompts for Class-Incremental Learning</b>
 <br/>
-[Ruxiao Duan](https://scholar.google.com/citations?hl=en&user=aG-fi1cAAAAJ)<sup>1</sup>,
-[Yaoyao Liu](https://scholar.google.com/citations?hl=en&user=Uf9GqRsAAAAJ)<sup>1</sup>,
-[Jieneng Chen](https://scholar.google.com/citations?hl=en&user=yLYj88sAAAAJ)<sup>1</sup>,
-[Adam Kortylewski](https://scholar.google.com/citations?hl=en&user=tRLUOBIAAAAJ)<sup>2,3</sup>,
-[Alan Yuille](https://scholar.google.com/citations?hl=en&user=FJ-huxgAAAAJ)<sup>1</sup>,
+[Shuping Liu](https://scholar.google.com/citations?hl=en&user=aG-fi1cAAAAJ)<sup>1</sup>,
+[Wei Li](https://scholar.google.com/citations?hl=zh-CN&user=CRioWFgAAAAJ&view_op=list_works&sortby=pubdate)<sup>2</sup>,
 <br/>
-<sup>1</sup>Johns Hopkins University,
-<sup>2</sup>University of Freiburg,
-<sup>3</sup>Max Planck Institute for Informatics
-
+<sup>1</sup>Jiangnan University,
 ## Getting Started
 
 ### 1. Environment Creation
